@@ -1,0 +1,21 @@
+//suma de digitos de numeros
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	
+	int numero, suma=0;
+
+	printf("que numero quiere sumar:");
+	scanf("%d", &numero);
+	
+	while(numero!=0){
+		suma += numero %10;
+		numero/=10;
+	} 
+
+		printf("la suma de ambos digitos es:%d", suma);
+
+	
+	return 0;
+}
