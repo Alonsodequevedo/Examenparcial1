@@ -1,0 +1,31 @@
+//encontrar negativos
+#include <stdio.h>
+#include <locale.h>
+
+
+int main(){
+	setlocale(LC_ALL, "Spanish");
+
+	printf("\t\t\t\t\t\t\t encontrar negativos\n");
+	printf(" \n");
+	while(1==1){
+
+	int valor=0;
+	int numero;
+	printf("dime tu número\n");
+	scanf("%d",& numero);
+	if(valor<numero)
+	{
+		printf("número válido\n");
+		printf("\n");
+
+	}
+		else{
+			printf("opción no válida\n");	
+			printf(" \n");
+		}
+
+	}
+
+
+}
