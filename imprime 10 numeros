@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+	int valor=0;
+	int numero;
+	printf("dime tu numero\n");
+	scanf("%d",& numero);
+	while(valor<numero){
+
+	valor=numero;
+	
+		printf("%d\n", valor+1);
+		printf("%d\n", valor+2);
+		printf("%d\n", valor+3);
+		printf("%d\n", valor+4);
+		printf("%d\n", valor+5);
+		printf("%d\n", valor+6);
+		printf("%d\n", valor+7);
+		printf("%d\n", valor+8);
+		printf("%d\n", valor+9);
+		printf("%d\n", valor+10);
+		valor=valor+1;
+	}
+	return 0;
+}
+//imprime 10 numeros
