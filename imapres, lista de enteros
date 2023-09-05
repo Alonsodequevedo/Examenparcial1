@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int valor=0;
+	int numero;
+	printf("dime tu numero\n");
+	scanf("%d",& numero);
+	while(valor<numero)
+	{
+		printf("%d\n", valor+1);
+		valor=valor+2;
+	}
+	return 0;
+}
