@@ -1,0 +1,17 @@
+//suma de n numeros
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	
+	int a,b;
+	
+	printf("cuantos numeros quiere sumar:");
+	scanf("%d", &a); 
+	
+	b=(a*(a+1))/2;
+	
+	printf("%d", b);
+	
+	return 0;
+}
