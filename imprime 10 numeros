@@ -1,3 +1,4 @@
+//imprime 10 numeros
 #include<stdio.h>
 int main(){
 	int valor=0;
@@ -22,4 +23,4 @@ int main(){
 	}
 	return 0;
 }
-//imprime 10 numeros
+
